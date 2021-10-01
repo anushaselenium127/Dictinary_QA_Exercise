@@ -9,26 +9,26 @@ import Dictinary.Dictionary;
 public class TestCases {
 	
 	@Test
-	public void TC1_wordCapLetters() throws IOException {
+	public void TC1_isEnglishWord() throws IOException {
 
 		System.out.println(Dictionary.isEnglishWord("WORKING"));
 	}
 
 	@Test
-	public void TC2_wordSmallLetters() throws IOException {
+	public void TC2_isEnglishWord() throws IOException {
 
 		System.out.println(Dictionary.isEnglishWord("working"));
 	}
 
 	@Test
-	public void TC1_wordMixedLetters() throws IOException {
+	public void TC3_isEnglishWord() throws IOException {
 
 		System.out.println(Dictionary.isEnglishWord("RAt"));
 
 	}
 
 	@Test
-	public void TC1_avoidDuplicateWords() throws IOException {
+	public void TC4_isEnglishWord() throws IOException {
 
 		System.out.println(Dictionary.isEnglishWord("ARTS"));
 
